@@ -35,7 +35,7 @@ function innerPatch<T extends StateTree>(
  * they want, no? like user/cart
  */
 
-type CombinedStore<
+export type CombinedStore<
   Id extends string,
   S extends StateTree,
   G extends Record<string, StoreGetter<S>>
